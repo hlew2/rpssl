@@ -1,1 +1,1 @@
-# rpssl
+Rock paper scissors lizard spock game. Built with HTML, CSS and vanillaJS.
