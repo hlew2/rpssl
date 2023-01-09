@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.wrapper {
+  background: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.buttons {
+  margin: 0;
+  padding: 0;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+button {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  font-size: 75px;
+  border-radius: 45px;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  scale: 1.1;
+}
+
+.resultsContainer {
+  font-size: 2.7rem;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  color: white;
+  width: 100%;
+  height: fit-content;
+}
+
+#player-score {
+  margin-top: 20px;
+}
+
+#result {
+  margin-bottom: 20px;
+}
+
+#overall-result {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+  margin-top: 40px;
+}
+
+span {
+  font-weight: bolder;
+  color: red;
+  background-color: white;
+  margin: 0;
+  border-radius: 25px;
+  height: fit-content;
+  width: fit-content;
+  padding: 0 15px;
+}
+
+.game-play {
+  font-weight: normal;
+  color: white;
+  font-size: 3.2rem;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  width: fit-content;
+}
+
+.game-end {
+  font-weight: bolder;
+  color: white;
+  font-size: 3.2rem;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  width: fit-content;
+}
